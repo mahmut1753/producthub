@@ -72,6 +72,7 @@ public sealed class UserRepository : IUserRepository
             {
                 user.Id,
                 user.PasswordHash,
+                user.Role,
                 user.IsActive
             },
             commandType: CommandType.StoredProcedure);
