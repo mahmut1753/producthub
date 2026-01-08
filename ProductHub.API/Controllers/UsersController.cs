@@ -9,7 +9,7 @@ namespace ProductHub.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]
+//[Authorize]
 public class UsersController : ControllerBase
 {
     private readonly IUserService _userService;
@@ -20,7 +20,7 @@ public class UsersController : ControllerBase
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public async Task<BaseResponse<int>> Create(CreateUserRequest request)
     {
         var result = await _userService.CreateAsync(request);

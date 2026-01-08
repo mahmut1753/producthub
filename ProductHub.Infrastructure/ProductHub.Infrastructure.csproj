@@ -16,4 +16,8 @@
     <ProjectReference Include="..\ProductHub.Application\ProductHub.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Script\" />
+  </ItemGroup>
+
 </Project>
