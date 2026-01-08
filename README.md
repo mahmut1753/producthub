@@ -97,18 +97,16 @@ GET https://fakestoreapi.com/products
 - Matched products
 - Only in local
 - Only in external
+- Bu projede ürün eşleştirmesi `ExternalProductId` üzerinden yapıldı. Gerçek hayat senaryolarında, farklı veri kaynakları için daha gelişmiş benzerlik algoritmaları veya manuel eşleşme mekanizmaları kullanılabilir.
 
 ### Endpoint
 GET /api/products/compare-external
 
 
 
-
 ## 🔄 Product Endpoints
 
 Tüm product endpoint’leri authentication gerektirir.
-
-
 
 GET /api/products
 GET /api/products/{id}
@@ -144,6 +142,14 @@ dotnet run --project ProductHub.API
 
 https://localhost:{port}/swagger
 
+## Authentication (Demo User)
+
+Projenin test edilebilmesi için örnek bir kullanıcı oluşturulmuştur.
+
+**Username:** `admin`  
+**Password:** `admin.925!`  
+
+>  Bu kullanıcı yalnızca demo/test içindir.
 
 ---
 
@@ -156,4 +162,5 @@ https://localhost:{port}/swagger
 - External API entegrasyonu ayrıştırıldı edildi
 
 ---
+
 
