@@ -159,8 +159,9 @@ Projenin test edilebilmesi için örnek bir kullanıcı oluşturulmuştur.
 - Domain modeli temiz tutuldu
 - JWT doğrulaması yapıldı
 - Dapper + SP ile performans ve kontrol sağlandı
-- External API entegrasyonu ayrıştırıldı edildi
+- External API entegrasyonu ayrıştırıldı
 
 ---
+
 
 
